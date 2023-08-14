@@ -1,3 +1,3 @@
-# dad_2023_2
+# Desarrollo de aplicaciones para dispositivos móviles
 
 Retos asignatura "desarrollo de aplicaciones para dispositivos móviles"
