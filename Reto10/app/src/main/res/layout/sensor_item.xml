@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow>
+
+        <!-- Código de Estación -->
+        <TextView
+            android:id="@+id/textCodigoEstacion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Código de Estación"
+            android:textColor="@color/gris_oscuro"
+            android:textAlignment="center"/>
+
+        <!-- Municipio -->
+        <TextView
+            android:id="@+id/textMunicipio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Municipio"
+            android:textColor="@color/gris_oscuro"
+            android:textAlignment="center"/>
+
+        <!-- Latitud -->
+        <TextView
+            android:id="@+id/textLatitud"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Latitud"
+            android:textColor="@color/gris_oscuro"
+            android:textAlignment="center"/>
+
+        <!-- Longitud -->
+        <TextView
+            android:id="@+id/textLongitud"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Longitud"
+            android:textColor="@color/gris_oscuro"
+            android:textAlignment="center"/>
+
+        <!-- Descripción del Sensor -->
+        <TextView
+            android:id="@+id/textDescripcionSensor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Descripción del Sensor"
+            android:textColor="@color/gris_oscuro"
+            android:textAlignment="center"/>
+
+        <!-- Icono -->
+        <ImageView
+            android:id="@+id/imageViewMapIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_location"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/textNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textEntidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </TableRow>
+
+    <!-- Agrega más filas aquí si es necesario -->
+</TableLayout>
+
